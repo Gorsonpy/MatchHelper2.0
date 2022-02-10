@@ -139,7 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="do_match.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="operator_data.cpp" />
+    <ClCompile Include="operator_rule.cpp" />
+    <ClCompile Include="read_data.cpp" />
+    <ClCompile Include="read_rule.cpp" />
+    <ClCompile Include="WriteResult.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="match_util.h" />
+    <ClInclude Include="Rule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
